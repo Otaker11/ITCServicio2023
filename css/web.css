@@ -8,6 +8,15 @@ body {
 
 }
 
+.reglamento{
+    color: white;
+    text-decoration: none;
+}
+
+.reglamento:hover{
+   background-color: #002747;
+   border-radius: 10px;
+}
 .banner {
     width: 1000px;
     height: auto;
