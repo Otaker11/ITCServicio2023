@@ -1,7 +1,7 @@
 ol{
     counter-reset: li;
     list-style: none;
-    *list-style: decimal;
+    list-style: decimal;
     font: 15px 'trebuchet MS', 'lucida sans';
     padding: 0;
     margin-bottom: 4em;
@@ -22,9 +22,9 @@ ol ol{
     position: relative;
     display: block;
     padding: .4em .4em .4em 2em;
-    *padding: .4em;
+    padding: .4em;
     margin: .5em 0;
-    background: #cbe05c;
+    background: #8BBD06;
     color: #000000;
     text-decoration: none;
     -moz-border-radius: .3em;
@@ -61,7 +61,7 @@ ol ol{
     left: -1.3em;
     top: 50%;
     margin-top: -1.3em;
-    background: #cbe05c;
+    background: #8BBD06;
     height: 2em;
     width: 2em;
     line-height: 2em;
@@ -91,9 +91,8 @@ ol ol{
         position: relative;
         display: block;
         padding: .4em .4em .4em 2em;
-        *padding: .4em;
         margin: .5em 0;
-        background: #cbe05c;
+        background: #8BBD06;
         text-decoration: none;
         -moz-border-radius: .3em;
         -webkit-border-radius: .3em;

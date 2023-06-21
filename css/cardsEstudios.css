@@ -12,7 +12,7 @@ font-weight: bold;
 }
 
 .lblindex:hover{
-    color:#cbe05c;
+    color:#8BBD06;
     font-weight: bold;
 }
 
@@ -56,7 +56,7 @@ font-weight: bold;
  
   article:has(:hover, :focus) {
     --img-scale: 1.1;
-    --title-color: #cbe05c;
+    --title-color: #8BBD06;
   }
   
   .articles {

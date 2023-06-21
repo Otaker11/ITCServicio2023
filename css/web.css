@@ -1,3 +1,8 @@
+body {
+	background-color: #365a90;
+	color: rgba(255, 255, 255);
+  overflow-x: hidden;
+}
 .main {
     margin-bottom: 100px;
 
@@ -47,7 +52,7 @@
     align-content: center;
     align-items: center;
     margin-top: 100px;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .conocerbtn {
@@ -62,7 +67,7 @@
     -moz-border-radius: 0 50% / 0 100%;
     -webkit-border-radius: 0 50% / 0 100%;
     border-radius: 10% 60% / 10% 100%;
-    background: #cbe05c;
+    background: #8BBD06;
     position: absolute;
 }
 
@@ -73,7 +78,7 @@
     -moz-border-radius: 50% 0% / 100 0%;
     -webkit-border-radius: 50 0% / 100 0%;
     border-radius: 60% 10% / 100% 10%;
-    background: #cbe05c;
+    background: #8BBD06;
     position: absolute;
 }
 
@@ -104,12 +109,12 @@
 }
 
 .rowMain:hover {
-    background-color: #cbe05c;
+    background-color: #8BBD06;
     color: black;
 }
 
 .rowMain2:hover {
-    background-color: #cbe05c;
+    background-color: #8BBD06;
     color: black;
 }
 
@@ -235,7 +240,7 @@
         -moz-border-radius: 0 50% / 0 100%;
         -webkit-border-radius: 0 50% / 0 100%;
         border-radius: 0 50% / 0 100%;
-        background: #cbe05c;
+        background: #8BBD06;
         position: absolute;
     }
 
@@ -247,7 +252,7 @@
         -moz-border-radius: 50% 0% / 100 0%;
         -webkit-border-radius: 50 0% / 100 0%;
         border-radius: 50% 0% / 100% 0%;
-        background: #cbe05c;
+        background: #8BBD06;
         position: absolute;
     }
 
