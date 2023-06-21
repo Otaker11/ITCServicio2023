@@ -1,0 +1,207 @@
+
+  body article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 20px 110px 20px;
+  }
+  
+  body article > header {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background: #002747;
+    padding: 20px 30px 15px 30px;
+    border-right: 5px solid #cbe05c;
+    margin-bottom: 60px;
+    border-radius: 10px;
+  }
+  
+  body article > section {
+    margin-top: 30px;
+    position: relative;
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #002747;
+    border-right: 5px solid #cbe05c;
+    transition: all 1s ease;
+    border-radius: 10px;
+  }
+  
+  body article > section:hover {
+    background: #cbe05c;
+    color: black;
+    border-right: 5px solid var(--accent);
+    border-radius: 10px;
+    transition: all 1s ease;
+  }
+  
+  body article > section::before {
+    position: absolute;
+    width: 95%;
+    height: 110%;
+    content: "";
+    z-index: -1;
+    background: var(--gradient);
+    transform: rotateZ(4deg);
+    transition: all 1s ease;
+    border-radius: 10px;
+  }
+ 
+  
+  body article > section:hover::before {
+    transform: rotateZ(-4deg);
+    width: 98%;
+    height: 128%;
+    border-radius: 10px;
+    transition: all 1s ease;
+  }
+  
+  body article > section:nth-child(odd):hover::before {
+    transform: rotateZ(4deg);
+  }
+  
+  body article > section:nth-child(2) {
+    --accent: #cbe05c;
+    --gradient: #cbe05c;
+  }
+  body article > section:nth-child(2):hover {
+    --accent: #002747;
+    --gradient: #002747;
+  }
+  
+  body article > section figure {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  body article > section figure img {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    height: 300px;
+    width: 450px;
+    align-self: stretch;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+.equipoArticle{
+  margin-bottom: 0;
+}
+.text-main4{
+  text-align: justify;
+}
+
+  iframe{
+    height: 300px;
+    width: 450px;
+    margin-left: 30px;
+    border-radius: 10px;
+  }
+  
+  body article > section:hover figure img {
+    border-radius: 10px 0 0 10px;
+    transition: all 1s ease;
+  }
+  
+  body article > section figure figcaption {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+   
+    margin: 30px;
+    padding: 20px 30px;
+    border-left: 3px solid var(--accent);
+  }
+  
+
+  body article > section figure figcaption p {
+    margin-bottom: 30px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+  .equipoHR{
+   border-color: #ffffff;
+   border-width: 2px;
+   margin-right: 200px;
+   
+  }
+
+  @media (max-width: 800px) {
+
+    iframe{
+        height: 250px;
+        width: 250px;
+        margin-left: 10px;
+        border-radius: 10px;
+      }
+    body article > header h1 {
+      font-size: 200%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    iframe{
+        height: 250px;
+        width: 250px;
+        margin-left: 10px;
+        border-radius: 10px;
+      }
+    body article > header {
+      border-right: unset;
+    }
+    body article > section {
+      border-right: unset !important;
+    }
+    body article > section figure {
+      flex-direction: column;
+    }
+    body article > section figure img {
+      max-width: unset;
+    }
+    body article > section figure figcaption {
+      margin: 20px;
+    }  
+  }
+
+  @media screen and (min-width: 0px) and (max-width: 1023px) {
+ 
+    body article > section figure img {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        height: 250px;
+        width: 250px;
+        align-self: stretch;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+      .text-main4{
+        text-align: center;
+        font-size: 13px;
+      }
+    
+      iframe{
+        height: 250px;
+        width: 250px;
+        padding-right: 20px;
+        border-radius: 10px;
+      }
+      
+  }
+  
